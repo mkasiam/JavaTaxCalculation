@@ -7,6 +7,11 @@ public class TaxReturnUs {
         this.status = status;
     }
 
+    public TaxReturnUs() {
+        income = 0;
+        status = Constants.SINGLE;
+    }
+
     public double getTax() {
         double tax1 = 0;
         double tax2 = 0;
